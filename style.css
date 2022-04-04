@@ -1,0 +1,39 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.theme_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.theme {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#dark {
+    background-color: black;
+}
+
+#salmon {
+    background-color: salmon;
+}
+
+#red {
+    background-color: red;
+}
+
